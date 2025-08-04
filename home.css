@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+
+/* home start */
+
+/* header start */
+
+
+header {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0D99F0;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    width: 100px;
+    height: 20px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+select:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* header end */
+
+
+/* main start */
+main {
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1082520190/thumb/6.jpg?ip=x480");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+}
+
+.main-text {
+    color: white;
+    position: absolute;
+    top: 320px;
+    padding: 30px;
+}
+
+.main-text h1{
+    font-size: 35px;
+}
+
+.main-text p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main-text  button{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    font-size: 18px;
+}
+
+.main-text button:hover{
+    background-color: white;
+    color: black;
+}
